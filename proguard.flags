@@ -12,16 +12,12 @@
 -keep class * extends com.android.settings.core.BasePreferenceController {
     *;
 }
-
+-keep class org.tesla.teslacoil.**
 -keep class com.google.**
 
->>>>>>> 3e78533110... Settings: Initial import for Pixel-specific feature Settings
 -keep class * extends com.android.settings.core.TogglePreferenceController {
     *;
 }
-
-# TeslaCoil
--keep class org.tesla.teslacoil.**
 
 # We want to keep methods in Activity that could be used in the XML attribute onClick.
 -keepclassmembers class * extends android.app.Activity {
