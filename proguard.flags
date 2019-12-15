@@ -13,6 +13,9 @@
     *;
 }
 
+-keep class com.google.**
+
+>>>>>>> 3e78533110... Settings: Initial import for Pixel-specific feature Settings
 -keep class * extends com.android.settings.core.TogglePreferenceController {
     *;
 }
