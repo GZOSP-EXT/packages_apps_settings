@@ -22,10 +22,10 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- Gzosp Logo Header -->
-    <Preference
-        android:key="gz_logo"
-        android:layout="@layout/gzosp_logo" />
+    <com.android.settings.widget.CustomVideoPreference
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:key="tesla_about_animation"
+        app:animation="@raw/tesla_about_animation" />
 
     <!-- Android version -->
     <Preference
