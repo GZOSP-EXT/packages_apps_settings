@@ -21,6 +21,15 @@
     android:key="top_level_settings">
 
     <Preference
+        android:key="top_level_teslacoil"
+        android:title="@string/tesla_settings_title"
+        android:summary="@string/tesla_dashboard_summary"
+        android:icon="@drawable/ic_homepage_tesla"
+        android:order="-130"
+        android:fragment="org.tesla.teslacoil.TeslaCoil"
+        settings:controller="org.tesla.teslacoil.TopLevelTeslaCoilEntryPreferenceController" />
+
+    <Preference
         android:key="top_level_network"
         android:title="@string/network_dashboard_title"
         android:summary="@string/summary_placeholder"
