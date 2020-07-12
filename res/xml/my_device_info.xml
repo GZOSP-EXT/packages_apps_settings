@@ -130,14 +130,14 @@
         android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
 
-    <!-- ROM Version -->
+    <!-- Tesla version -->
     <Preference
-        android:key="modversion"
+        android:key="tesla_version"
         android:order="43"
-        android:title="@string/rom_version_title"
-        android:summary="@string/device_info_default"
-        android:selectable="false"
-        settings:enableCopying="true"/>
+        android:title="@string/tesla_version"
+        android:summary="@string/summary_placeholder"
+        android:fragment="com.android.settings.deviceinfo.tesla.TeslaVersionSettings"
+        settings:controller="com.android.settings.deviceinfo.tesla.TeslaVersionPreferenceController"/>
 
     <!--IP address -->
     <Preference

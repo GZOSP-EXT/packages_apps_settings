@@ -37,7 +37,6 @@ import com.android.settings.deviceinfo.FeedbackPreferenceController;
 import com.android.settings.deviceinfo.IpAddressPreferenceController;
 import com.android.settings.deviceinfo.ManualPreferenceController;
 import com.android.settings.deviceinfo.RegulatoryInfoPreferenceController;
-import com.android.settings.deviceinfo.ROMVersionPreferenceController;
 import com.android.settings.deviceinfo.SafetyInfoPreferenceController;
 import com.android.settings.deviceinfo.UptimePreferenceController;
 import com.android.settings.deviceinfo.WifiMacAddressPreferenceController;
@@ -116,7 +115,6 @@ public class MyDeviceInfoFragment extends DashboardFragment
         controllers.add(new FeedbackPreferenceController(fragment, context));
         controllers.add(new FccEquipmentIdPreferenceController(context));
         controllers.add(new UptimePreferenceController(context, lifecycle));
-        controllers.add(new ROMVersionPreferenceController(context));
         return controllers;
     }
 

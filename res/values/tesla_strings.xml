@@ -17,4 +17,9 @@
     <string name="tesla_settings_title">Tesla Coil</string>
     <string name="tesla_dashboard_summary">Enjoy the power</string>
 
+    <!-- Tesla Version -->
+    <string name="tesla_version">Tesla version</string>
+    <string name="tesla_version_default">Unknown</string>
+    <string name="tesla_build_date">Build date</string>
+    <string name="tesla_build_default">Unknown</string>
 </resources>
