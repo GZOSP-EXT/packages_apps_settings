@@ -180,4 +180,5 @@ public class Settings extends SettingsActivity {
     public static class TeslaCoilActivity extends SettingsActivity { /* empty */ }
     public static class TeslaCoilSystemActivity extends SettingsActivity { /* empty */ }
     public static class SmartPixelsActivity extends SettingsActivity { /* empty */ }
+    public static class GlobalActionsSettingsActivity extends SettingsActivity { /* empty */ }
 }

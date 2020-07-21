@@ -150,6 +150,7 @@ import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings
 import com.android.settings.wifi.tether.WifiTetherSettings;
 import org.tesla.teslacoil.TeslaCoil;
 import org.tesla.teslacoil.fragments.system.SmartPixels;
+import org.tesla.teslacoil.fragments.system.GlobalActionsSettings;
 
 public class SettingsGateway {
 
@@ -290,6 +291,7 @@ public class SettingsGateway {
             DarkModeSettingsFragment.class.getName(),
             TeslaCoil.class.getName(),
             SmartPixels.class.getName(),
+            GlobalActionsSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -331,5 +333,6 @@ public class SettingsGateway {
             Settings.TeslaCoilActivity.class.getName(),
             Settings.TeslaCoilSystemActivity.class.getName(),
             Settings.SmartPixelsActivity.class.getName(),
+            Settings.GlobalActionsSettingsActivity.class.getName(),
     };
 }

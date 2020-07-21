@@ -22,4 +22,6 @@
     <string name="tesla_version_default">Unknown</string>
     <string name="tesla_build_date">Build date</string>
     <string name="tesla_build_default">Unknown</string>
+
+    <string name="global_actions_title">Power menu</string>
 </resources>
